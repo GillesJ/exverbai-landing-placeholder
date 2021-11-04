@@ -11,7 +11,7 @@ body {
 logo {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-size: 30vmin;
+  font-size: 30vw;
   position: relative;
   left: 3%;
 }
