@@ -5,7 +5,10 @@ body {
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  background: black;
+  background: linear-gradient(217deg, rgba(255,100,100,.1), rgba(255,50,50,0) 70.71%),
+      linear-gradient(127deg, rgba(100,255,100,.05), rgba(50,255,50,0) 70.71%),
+      linear-gradient(336deg, rgba(100,100,255,.1), rgba(100,100,255,0) 70.71%), black;
+};
 }
 
 logo {
