@@ -41,7 +41,7 @@
     font-family: 'Spectral', 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
     font-style: italic;
     font-weight: bold;
-    font-size: 9vw;
+    font-size: clamp(2vh, 9vw, 8rem);
     position: relative;
     /*left: -100px;*/
     /*align-items: left;*/
@@ -51,7 +51,7 @@
   .subtitle {
     color: #f7f5f2;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    font-size: 4vw; /* Subtitle font size, adjust as needed */
+    font-size: clamp(1vh, 5vw, 5rem); /* Subtitle font size, adjust as needed */
     margin-top: 20px; /* Space between logo and subtitle */
   }
 
@@ -1574,7 +1574,7 @@
 
 <div class="subtitle">Action from Words.</div>
 
-<div class="subtitle" style="font-size: 3vw;">Your expert in AI, ML & NLP engineering. Coming soon.</div>
+<div class="subtitle" style="font-size: clamp(1vh, 3vw, 3rem);">Your expert in AI, ML & NLP engineering.</div>
 
 </body>
 </html>
